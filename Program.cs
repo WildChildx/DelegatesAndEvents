@@ -6,11 +6,9 @@
         static void Main(string[] args)
         {
             WorkPerformedHandler del1 = new WorkPerformedHandler(WorkPerformed1);
-            WorkPerformedHandler del2 = new WorkPerformedHandler(WorkPerformed2);
 
 
             del1(5, WorkType.GenerateReports);
-            del2(10, WorkType.Golf);
 
             Console.Read();
         }
